@@ -14,9 +14,12 @@ public class walkers      // Add your class name here!
     // 3. Write a print() method that uses System.out.println to print out all the instance variables.
     public void print()
     {
-        System.out.println (avrWalkersPerDay);
-        System.out.println (avrWalkSpeed);
-        System.out.println (avrNumOfRunners);
+        System.out.println ();
+        System.out.println ("average number of walkers per day: " + avrWalkersPerDay);
+        System.out.println ("average walking speed: " + avrWalkSpeed);
+        System.out.println ("average number of runners: " + avrNumOfRunners);
+        System.out.println ();
+        System.out.println ();
     }
     
     // 4. Create accessor (get) methods for each of the instance variables.
